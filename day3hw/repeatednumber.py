@@ -1,5 +1,5 @@
 def repeat_check(a):
-  n = [0] * 101
+  n = [0] * 10
   for i in a:
     if n[i] == 0:
       n[i] += 1
@@ -11,9 +11,9 @@ def repeat_check(a):
       return
 
 lst = []
-for i in range(0, 100): 
+for i in range(0, 10): 
     ele = int(input("Enter number ")) 
     lst.append(ele)
-repeat(lst)
+repeat_check(lst)
 
   
